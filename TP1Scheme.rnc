@@ -1,0 +1,41 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = bibliotheque
+
+bibliotheque = element bibliotheque { 
+                                auteur* ,
+                                livre*
+                                }
+                                
+auteur = element auteur {
+                                temp
+                            }
+personnage = element personnage {
+                                temp
+                            }  
+                            
+
+livre = element livre{ 
+                            attribute language{xsd:language},
+                            attribute auteur {xsd:IDREFS} ,
+                            element titre{xsd:string},
+                            element annee {xsd:gYear},
+                            prix,
+                            element couverture {xsd:anyURI},
+                            element film {xsd:anyURI},
+                            element commentaire {text}*,
+                            personnage*
+                            }
+                            
+                            
+prix= element prix {
+                    element valeur {xsd:decimal},
+                    attribute monnaie {xsd:string}
+                    }
+                    
+  temp=attribute ident {xsd:ID},
+  element nom {xsd:string },
+  element prenom {xsd:string} ,
+  element pays {text},
+  element photo {xsd:anyURI}?,
+  element commentaire { text}*

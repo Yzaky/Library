@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bibliotheque-livres.xsl"?>
+
+<?xml-model href="TP1Scheme.rnc" type="application/relax-ng-compact-syntax"?>
+
+<bibliotheque>
+
+    <auteur ident="FC001">
+        <nom>Verne</nom>
+        <prenom>Jules</prenom>
+        <pays>France</pays>
+        <photo>https://upload.wikimedia.org/wikipedia/commons/d/d1/F%C3%A9lix_Nadar_1820-1910_portraits_Jules_Verne_%28restoration%29.jpg</photo>
+        <commentaire> Jules Verne was a 19th century French author whose revolutionary
+            science-fiction novels, including Around the World in Eighty Days and Twenty Thousand
+            Leagues Under the Sea, have entranced readers for more than a century.</commentaire>
+    </auteur>
+
+    <auteur ident="FC002">
+        <nom>Dumas</nom>
+        <prenom>Alexendre</prenom>
+        <pays>France</pays>
+        <photo>http://www.cliffreuter.com/images/alex%202.jpg</photo>
+        <commentaire> Alexandre Dumas is a celebrated French author best known for his historical
+            adventure novels, including The Three Musketeers and The Count of Monte
+            Cristo.</commentaire>
+    </auteur>
+
+    <auteur ident="FC003">
+        <nom>Tolstoy</nom>
+        <prenom>Leon</prenom>
+        <pays>Russie</pays>
+        <photo>http://cdn2.hubspot.net/hub/237126/file-1565583271-jpg/leo_tolstoy.jpg</photo>
+        <commentaire> Russian author Leon Tolstoy wrote the acclaimed novels War and Peace, Anna
+            Karenina and The Death of Ivan Ilyich, and still ranks among the world's top
+            writers.</commentaire>
+    </auteur>
+
+    <auteur ident="FC004">
+        <nom>Sparks</nom>
+        <prenom>Nicholas</prenom>
+        <pays>Les Etats-Unis</pays>
+        <photo>http://cdn1.thr.com/sites/default/files/2011/09/nicholas_sparks_a_p.jpg</photo>
+        <commentaire> Nicholas Sparks is the author of novels The Notebook, Message in a Bottle and
+            Nights in Rodanthe, among others.</commentaire>
+    </auteur>
+
+    <auteur ident="FC005">
+        <nom>Hoffman</nom>
+        <prenom>Alice</prenom>
+        <pays>Les Etats-Unis</pays>
+        <photo>http://i.dailymail.co.uk/i/pix/2011/10/27/article-0-002DEBB900000258-420_224x423.jpg</photo>
+        <commentaire> Alice Hoffman was born in New York City on March 16, 1952 and grew up on Long
+            Island. After graduating from high school in 1969, she attended Adelphi University, from
+            which she received a BA, and then received a Mirrellees Fellowship to the Stanford
+            University Creative Writing Center, which she attended in 1973 and 74, receiving an MA
+            in creative writing. She currently lives in Boston.</commentaire>
+    </auteur>
+
+    <auteur ident="FC006">
+        <nom>McCourt</nom>
+        <prenom>Frank</prenom>
+        <pays>Les Etats-Unis</pays>
+        <photo>http://d28hgpri8am2if.cloudfront.net/author_images/5474_1660330.jpg</photo>
+        <commentaire>Pulitzer Prize winning author Frank McCourt wrote the biography Angela's Ashes
+            after retiring from teaching for 30 years in New York City. </commentaire>
+    </auteur>
+
+    <auteur ident="FC007">
+        <nom>Mitchard</nom>
+        <prenom>Jacquelyn</prenom>
+        <pays>Les Etats-Unis</pays>
+        <photo>http://abroadwritersconference.com/wp-content/uploads/2013/05/pyUKYiBXJT3NkvGYc969iqw504LC11YKeD1ws_Aso7o.jpg</photo>
+        <commentaire>Jacquelyn Mitchard first novel, The Deep End of the Ocean, was named by USA
+            Today as one of the ten most influential books of the past 25 years, second only to the
+            Harry Potter series by J.K. Rowling (but second by a long shot, it must be said.)
+        </commentaire>
+    </auteur>
+
+    <auteur ident="FC008">
+        <nom>Child</nom>
+        <prenom>Lee</prenom>
+        <pays>Royaume-Uni</pays>
+        <photo>http://www.hudsonbooksellers.com/sites/hudsonbooksellers.com/files/lee-child.jpg</photo>
+        <commentaire>#1 New York Times Bestselling Author, Lee Child is best known for his main
+            character, Jack Reacher. In fact, Lee Child has written 17 ,Jack Reacher, books.
+        </commentaire>
+    </auteur>
+
+    <auteur ident="FC009">
+        <nom>Hugo</nom>
+        <prenom>Victor</prenom>
+        <pays>France</pays>
+        <photo>http://art-sheep.com/wp-content/uploads/2015/06/4475742-4312677727-Hugo0.jpg</photo>
+        <commentaire>Victor Hugo is a celebrated French Romantic author best known for his poetry
+            and his novels, including Les Miserables </commentaire>
+    </auteur>
+
+    <auteur ident="FC010">
+        <nom>Flaubert</nom>
+        <prenom>Gustave</prenom>
+        <pays>France</pays>
+        <photo>https://upload.wikimedia.org/wikipedia/commons/e/ea/Gustave-Flaubert2.jpg</photo>
+        <commentaire> French novelist Gustave Flaubert, born in 1821, is best known for his
+            masterpiece Madame Bovary and is renowned as a classic French realist
+            writer.</commentaire>
+    </auteur>
+
+    <auteur ident="FC011">
+        <nom>Rowling</nom>
+        <prenom>J.K</prenom>
+        <pays>U.K</pays>
+        <photo>https://upload.wikimedia.org/wikipedia/commons/5/5d/J._K._Rowling_2010.jpg</photo>
+        <commentaire>a British novelist, screenwriter and film producer best known as the author of the Harry Potter fantasy series. The books have gained worldwide attention, won multiple awards, and sold more than 400 million copies </commentaire>
+    </auteur>
+
+    <livre language="Francais" auteur="FC001">
+        <titre>Le tour du monde en 80 jours</titre>
+        <annee>1873</annee>
+        <prix monnaie="EUR">
+            <valeur>20</valeur>
+        </prix>
+        <couverture>http://jeuxatheme.free.fr/Images%20Trains/Images%20Tourdumonde/recto%20tourdumonde.JPG</couverture>
+        <film>http://www.imdb.com/title/tt0048960/?ref_=fn_al_tt_1</film>
+        <commentaire> Le Tour du monde en quatre-vingts jours est un roman d'aventures de Jules
+            Verne, publie en 1872.</commentaire>
+        <personnage ident="p1">
+            <nom> Fogg</nom>
+            <prenom>Phileas</prenom>
+            <pays>France</pays>
+            <photo>http://www.julesverne.ca/images/imgjvwrp/jvpfffb.gif</photo>
+            <commentaire>Phileas Fogg is the protagonist in the 1873 Jules Verne novel Around the
+                World in Eighty Days..</commentaire>
+        </personnage>
+    </livre>
+
+    <livre language="Francais" auteur="FC002">
+        <titre>Le Comte de Monte-Cours</titre>
+        <annee>1844</annee>
+        <prix monnaie="EUR">
+            <valeur>30</valeur>
+        </prix>
+        <couverture>http://www.renaud-bray.com/ImagesEditeurs/PG/1320/1320194-gf.jpg</couverture>
+        <film>http://www.imdb.com/title/tt0167565/?ref_=nv_sr_1</film>
+        <commentaire> Le Comte de Monte-Cristo est un roman de Alexandre Dumas, ecrit avec la
+            collaboration de Auguste Maquet et acheve en 1844.</commentaire>
+        <personnage ident="p2">
+            <nom> Dantes</nom>
+            <prenom>Edmond</prenom>
+            <pays>France</pays>
+            <photo>https://upload.wikimedia.org/wikipedia/commons/4/46/Edmond_Dant%C3%A8s_cropped.JPG</photo>
+            <commentaire>Dantes is an intelligent, honest, and loving man who turns bitter and
+                vengeful after he is framed for a crime he didn't commit.</commentaire>
+        </personnage>
+    </livre>
+
+    <livre language="Anglais" auteur="FC003">
+        <titre>War and Peace</titre>
+        <annee>1869</annee>
+        <prix monnaie="EUR">
+            <valeur>23</valeur>
+        </prix>
+        <couverture>http://ecx.images-amazon.com/images/I/51qFi0rYw7L._SY344_BO1,204,203,200_.jpg</couverture>
+        <film>http://www.imdb.com/title/tt0049934/</film>
+        <commentaire> War and Peace est un roman de l'ecrivain russe Leon Tolstoi.</commentaire>
+        <personnage ident="p3">
+            <nom> Bezukhov</nom>
+            <prenom>Pierre</prenom>
+            <pays>Russie</pays>
+            <photo>http://www.executedtoday.com/images/Pierre_Bezukhov_Bondarchuk.jpg</photo>
+            <commentaire>He is the favourite of several illegitimate sons of the wealthy nobleman
+                Count Kirill Vladimirovich Bezukhov.</commentaire>
+        </personnage>
+    </livre>
+
+    <livre language="Anglais" auteur="FC004">
+        <titre>A Walk to Remember</titre>
+        <annee>2000</annee>
+        <prix monnaie="CAD">
+            <valeur>23</valeur>
+        </prix>
+        <couverture>https://upload.wikimedia.org/wikipedia/en/a/a8/A_Walk_to_Remember_%28Hardcover%29.jpg</couverture>
+        <film>http://www.imdb.com/title/tt0281358/</film>
+        <commentaire> A Walk to Remember est un roman de l'ecrivain americain Nicholas Sparks, sorti
+            en Octobre 1999. Le roman, mis en 1958-'59 a Beaufort, Caroline du Nord, est une
+            histoire de deux adolescents qui tombent en amour avec l'autre, malgre la disparite des
+            leurs personnalites.</commentaire>
+        <personnage ident="p4">
+            <nom> Sullivan</nom>
+            <prenom>Jamie</prenom>
+            <pays>Les Etats-Unis</pays>
+            <photo>http://vignette4.wikia.nocookie.net/a-walk-to-remember/images/c/c9/Jamie.png/revision/latest?cb=20130408114018</photo>
+            <commentaire>Jamie Sullivan is the daughter of the Beaufort church minister Hegbert
+                Sullivan and is the main female character of A Walk To Remember. Her mother died
+                shortly after giving birth to her and her father raised her all by himself. She is
+                very religious, happy and kind.</commentaire>
+        </personnage>
+    </livre>
+
+    <livre language="Anglais" auteur="FC005">
+        <titre>Aquamarine</titre>
+        <annee>2001</annee>
+        <prix monnaie="EUR">
+            <valeur>15</valeur>
+        </prix>
+        <couverture>https://upload.wikimedia.org/wikipedia/en/3/3f/Aquamarine_%28Alice_Hoffman_novel%29.jpg</couverture>
+        <film>http://www.imdb.com/title/tt0429591/</film>
+        <commentaire> Aquamarine est un roman de Alice Hoffman, publie en Avril 2001. Une adaptation
+            de film est sorti en 2006, bien que l'intrigue du film decouvre peu de ressemblance avec
+            celle du livre.</commentaire>
+        <personnage ident="p5">
+            <nom>Rogers</nom>
+            <prenom>Hailey</prenom>
+            <pays>Les Etats-Unis</pays>
+            <photo>https://pbs.twimg.com/profile_images/1702347745/image.jpg</photo>
+            <commentaire>Unlike her best friend, Claire, Hailey is outgoing and a bit of a tomboy.
+                She is very girly as well being she claims to be an expert on boys. Overall, she is
+                very caring and kind. She is also a bit rebellious because she tried to go against
+                moving to Australia with her mom, Ginny Rogers.</commentaire>
+        </personnage>
+    </livre>
+
+    <livre language="Anglais" auteur="FC006">
+        <titre>Angela's Ashes</titre>
+        <annee>1996</annee>
+        <prix monnaie="EUR">
+            <valeur>23</valeur>
+        </prix>
+        <couverture>https://upload.wikimedia.org/wikipedia/en/0/0c/AngelasAshes.jpg</couverture>
+        <film>http://www.imdb.com/title/tt0145653/</film>
+        <commentaire> Les Cendres d'Angela (Angela's Ashes) est un roman de Frank McCourt edite en
+            1996.Il se compose de diverses anecdotes et histoires d'enfance de Frank McCourt et sa
+            vie a Brooklyn et Limerick. Il comprend egalement son combat avec la pauvrete, les
+            problemes d'alcool de son pere et les tentatives de sa mere pour garder la famille
+            unie.</commentaire>
+        <personnage ident="p6">
+            <nom> McCourt</nom>
+            <prenom>Francis</prenom>
+            <pays>Les Etats-Unis</pays>
+            <photo>http://a2.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTIwNjA4NjMzODkyMDEzNTgw.jpg</photo>
+            <commentaire/>
+        </personnage>
+    </livre>
+
+
+    <livre language="Anglais" auteur="FC007">
+        <titre>The Deep End of the Ocean</titre>
+        <annee>1996</annee>
+        <prix monnaie="EUR">
+            <valeur>21</valeur>
+        </prix>
+        <couverture>http://ecx.images-amazon.com/images/I/41CPynRRVxL._SY344_BO1,204,203,200_.jpg</couverture>
+        <film>http://www.imdb.com/title/tt0120646/"</film>
+        <commentaire> Aussi profond que l'ocean est un roman best-seller de Jacquelyn Mitchard,
+            sorti en 1996. Il est au sujet d'une classe moyenne americaine, famille de banlieue qui
+            est dechiree lorsque le plus jeune fils est enleve et eleve par une femme souffrant de
+            troubles mentaux, jusqu'a ce qu'il apparait a la porte avant de sa vraie mere et demande
+            s'il peut tondre la pelouse.</commentaire>
+        <personnage ident="p7">
+            <nom>Cappadora</nom>
+            <prenom>Beth</prenom>
+            <pays>Les Etats-Unis</pays>
+            <photo>https://s-media-cache-ak0.pinimg.com/736x/0f/ed/31/0fed317c31dabda243c8a2ac10324dc9.jpg</photo>
+            <commentaire>Beth Cappadora the main protagonist</commentaire>
+        </personnage>
+    </livre>
+
+    <livre language="Anglais" auteur="FC008">
+        <titre>One Shot</titre>
+        <annee>2005</annee>
+        <prix monnaie="EGP">
+            <valeur>191</valeur>
+        </prix>
+        <couverture>http://www.rankopedia.com/CandidatePix/157472.gif</couverture>
+        <film>http://www.imdb.com/title/tt3343350/</film>
+        <commentaire> One Shot est le neuvieme livre de la serie Jack Reacher ecrit par Lee Child.
+            Le titre du livre est base sur "Un tir, un mort," le credo du sniper militaire. Le roman
+            a ete adapte dans le film de 2012 Jack Reacher, avec Tom Cruise dans le
+            role-titre.</commentaire>
+        <personnage ident="p8">
+            <nom>Reacher</nom>
+            <prenom>Jack</prenom>
+            <pays>Les Etats-Unis</pays>
+            <photo>https://pmcdeadline2.files.wordpress.com/2012/07/jack-reacher-tom-cruise__120708215315.jpg?w=970</photo>
+            <commentaire/>
+        </personnage>
+
+    </livre>
+
+    <livre language="Francais" auteur="FC009">
+        <titre>Les Miserables</titre>
+        <annee>1862</annee>
+        <prix monnaie="EUR">
+            <valeur>21</valeur>
+        </prix>
+        <couverture>http://img2.imagesbn.com/p/9781613824931_p0_v1_s260x420.JPG</couverture>
+        <film>http://www.imdb.com/title/tt1707386/</film>
+        <commentaire> Les Miserables est un roman de Victor Hugo paru en 1862 (la premiere partie
+            est publiee le 30 mars a Bruxelles par les Editions Lacroix, Verboeckhoven et Cie, et le
+            3 avril de la meme annee a Paris).</commentaire>
+        <personnage ident="p9">
+            <nom> Valjean</nom>
+            <prenom>Jean</prenom>
+            <pays>France</pays>
+            <photo>http://vignette3.wikia.nocookie.net/lesmiserables/images/a/ab/Jean_Valjean_Portrait.png/revision/latest?cb=20140322155446</photo>
+            <commentaire>Jean Valjean is a fictional character and the protagonist of Victor Hugo's
+                1862 novel Les Misérables. Hugo depicts the character's 19-year-long struggle to
+                lead a normal life after serving a prison sentence for stealing bread to feed his
+                sister's children during a time of economic depression and various attempts to
+                escape from prison.</commentaire>
+        </personnage>
+    </livre>
+    <livre language="Francais" auteur="FC010">
+        <titre> Madame Bovary </titre>
+        <annee>1856</annee>
+        <prix monnaie="EUR">
+            <valeur>22</valeur>
+        </prix>
+        <couverture>http://t1.gstatic.com/images?q=tbn:ANd9GcSZ1plLFBwBtmOA8zqxO1_d_IQyyD71S-9kZIIYrsArpfjwjh7e</couverture>
+        <film>http://www.imdb.com/title/tt2334733/</film>
+        <commentaire> Madame Bovary, est un roman de Gustave Flaubert paru en 1857 chez Michel Levy
+            freres, apres une pre-parution en 1856 dans le journal La Revue de Paris. Il s'agit
+            d'une œuvre majeure de la litterature francaise et mondiale.</commentaire>
+        <personnage ident="p10">
+            <nom> Bovary</nom>
+            <prenom>Emma</prenom>
+            <pays>France</pays>
+            <photo>https://images.newrepublic.com/17f422bb78c133f448b17d068674087d72ebd87a.jpeg</photo>
+            <commentaire>Madame Bovary takes place in provincial northern France, near the town of
+                Rouen in Normandy. Charles Bovary is a shy, oddly dressed teenager arriving at a new
+                school where his new classmates ridicule him</commentaire>
+        </personnage>
+
+
+
+    </livre>
+    
+    
+    
+    
+    <livre language="Anglais" auteur="FC011">
+        <titre>Harry Potter and the Philosopher's Stone</titre>
+        <annee>1997</annee>
+        <prix monnaie="EUR">
+            <valeur>15</valeur>
+        </prix>
+        <couverture>https://upload.wikimedia.org/wikipedia/en/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg</couverture>
+        <film>http://www.imdb.com/title/tt0241527/?ref_=fn_al_tt_1</film>
+        <commentaire> Le premier livre de la saga pour les jeunes nes avant les annees 2000.</commentaire>
+        <personnage ident="p11">
+            <nom> Potter</nom>
+            <prenom>Harry</prenom>
+            <pays>UK</pays>
+            <photo>http://www.drunkmoviezone.com/images/movies/harry-potter-and-the-sorcerers-stone.jpg</photo>
+            <commentaire>An orphan whom Rowling imagined as a "scrawny, black-haired, bespectacled boy who didn't know he was a wizard.</commentaire>
+        </personnage>
+    </livre>
+    
+    
+    
+    
+    
+    
+    
+    <livre language="Francais" auteur="FC001">
+        <titre>Voyage au centre de la Terre</titre>
+        <annee>1864</annee>
+        <prix monnaie="EUR">
+            <valeur>12</valeur>
+        </prix>
+        <couverture>https://upload.wikimedia.org/wikipedia/commons/b/b2/%27Journey_to_the_Center_of_the_Earth%27_by_%C3%89douard_Riou_38.jpg</couverture>
+        <film>http://www.imdb.com/title/tt0373051/?ref_=fn_al_tt_1</film>
+        <commentaire>un roman de science-fiction, ecrit en 1864 par Jules Verne. </commentaire>
+        <personnage ident="p12">
+            <nom>Lidenbrock</nom>
+            <prenom>Otto</prenom>
+            <pays>Allemagne</pays>
+            <photo>https://upload.wikimedia.org/wikipedia/commons/c/c1/%27Journey_to_the_Center_of_the_Earth%27_by_%C3%89douard_Riou_04.jpg</photo>
+            <commentaire>a man of science and astonishing impatience and the uncle to Axel.</commentaire>
+        </personnage>
+    </livre>
+
+</bibliotheque>
